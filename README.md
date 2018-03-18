@@ -1,4 +1,4 @@
-# bashrc
+# overloaded bashrc
 
 Colored bashrc for linux
 
