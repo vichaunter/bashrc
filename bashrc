@@ -63,7 +63,7 @@ else
 fi
 unset color_prompt force_color_prompt
 
-PS1='\[\033[0;32m\]\[\033[0m\033[0;32m\]\u\[\033[0;36m\] @ \[\033[0;36m\]\h \w\[\033[0;97m\]$(if [ $(id -u) -ne 0 ]; then echo  $(__git_ps1) ; fi)\n\[\033[0;32m\]\[\033[0m\033[0;32m\] \$\[\033[0m\033[0;32m\] \[\033[0m\] '
+PS1='\[\033[0;32m\]\[\033[0m\033[0;32m\]\u\[\033[0;36m\] @ \[\033[0;36m\]\h \w\[\033[0;93m\]$(if [ $(id -u) -ne 0 ]; then echo  $(__git_ps1) ; fi)\n\[\033[0;32m\]\[\033[0m\033[0;32m\] \$\[\033[0m\033[0;32m\] \[\033[0m\] '
 
 # If this is an xterm set the title to user@host:dir
 case "$TERM" in
