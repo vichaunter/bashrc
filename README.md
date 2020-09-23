@@ -1,6 +1,13 @@
-# supercharged bashrc
+# Supercharged bashrc
 
 Colored bashrc for linux
+
+Features:
+* Git branch hinting when your current path is in git project
+* Full colored terminal with better reading scheme
+* Next line commands ( after line with `user@path(branch)` )
+
+## How to install
 
 To replace your current bash simply run on your username:
 
