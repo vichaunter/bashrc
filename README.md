@@ -9,14 +9,15 @@ Features:
 
 ## How to install
 
-To replace your current bash simply run on your username:
+To replace your current bash simply run:
 
+for root
 ```
 wget  -O /root/.bashrc "https://raw.githubusercontent.com/vichaunter/bashrc/master/bashrc"
 ```
-or
+or for your user
 ```
-wget  -O /home/youruser/root/.bashrc "https://raw.githubusercontent.com/vichaunter/bashrc/master/bashrc"
+wget  -O /home/${USER}/.bashrc "https://raw.githubusercontent.com/vichaunter/bashrc/master/bashrc"
 ```
 
 after download just execute exec to apply changes
