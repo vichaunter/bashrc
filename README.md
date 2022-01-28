@@ -26,3 +26,10 @@ exec bash
 ```
 
 Enjoy!
+
+## Troubleshooting
+
+If you receive an error `__git_ps1: command not found` just install git
+```
+sudo apt install git
+```
